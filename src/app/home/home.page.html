@@ -15,41 +15,68 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>   
+<ion-content fullscreen> 
+    <ion-list lines="full">
+        <!-- <ion-item-divider>           
+        </ion-item-divider> -->
+    <ion-item>  
     <ion-grid no-padding>
         <ion-row no-padding>
           <ion-col> 
-            <div text-center>           
+            <div text-center class="mynav">           
               <ion-icon name="search" size="large"></ion-icon>                           
-              <ion-label>Icon Chip</ion-label>  
+              <ion-label>职位搜素</ion-label>  
             </div>  
           </ion-col>
           <ion-col>              
-              <div text-center>           
+              <div text-center class="mynav">           
                   <ion-icon name="eye" size="large"></ion-icon>                           
-                  <ion-label>Icon Chip</ion-label>  
+                  <ion-label>谁看过我</ion-label>  
                 </div>   
           </ion-col>
           <ion-col>              
-              <div text-center>           
+              <div text-center class="mynav">           
                   <ion-icon name="book" size="large"></ion-icon>                           
-                  <ion-label>Icon Chip</ion-label>  
+                  <ion-label>求职历史</ion-label>  
                 </div>  
           </ion-col>
           <ion-col>              
-              <div text-center>           
+              <div text-center class="mynav">           
                   <ion-icon name="school" size="large"></ion-icon>                           
-                  <ion-label>Icon Chip</ion-label>  
+                  <ion-label>校园招聘</ion-label>  
                 </div>  
           </ion-col>
           <ion-col>              
-              <div text-center>           
+              <div text-center class="mynav">           
                   <ion-icon name="document" size="large"></ion-icon>                           
-                  <ion-label>Icon Chip</ion-label>  
+                  <ion-label>赚钱攻略</ion-label>  
                 </div>  
           </ion-col>
-        </ion-row>
+        </ion-row>       
       </ion-grid>   
+      </ion-item>
+      <ion-item>
+          <ion-slides pager="true" class="slides-ios slides">
+              <ion-slide>
+                  <img src="assets/img/ica-slidebox-img-1.png" class="slide-image">
+                  <h2 class="slide-title">Welcome to the <b>ICA</b></h2>
+                  <p>The <b>ionic conference app</b> is a practical preview of the ionic framework in action, and a demonstration of proper code use.</p>
+              </ion-slide>
+            
+              <ion-slide>
+                  <img src="assets/img/ica-slidebox-img-2.png" class="slide-image">
+                  <h2 class="slide-title">Welcome to the <b>ICA</b></h2>
+                  <p>The <b>ionic conference app</b> is a practical preview of the ionic framework in action, and a demonstration of proper code use.</p>
+              </ion-slide>
+            
+              <ion-slide>
+                  <img src="assets/img/ica-slidebox-img-3.png" class="slide-image">
+                  <h2 class="slide-title">Welcome to the <b>ICA</b></h2>
+                  <p>The <b>ionic conference app</b> is a practical preview of the ionic framework in action, and a demonstration of proper code use.</p>
+              </ion-slide>
+            </ion-slides>
+      </ion-item>
+    </ion-list>
   The world is your oyster.
   <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p>
 </ion-content>
