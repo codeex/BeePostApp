@@ -1,0 +1,7 @@
+{
+  "name": "BeePostApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
